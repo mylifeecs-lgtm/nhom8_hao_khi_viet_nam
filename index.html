@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hào Khí Việt Nam - Lễ Hội Truyền Thống</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap');
+        
+        body { font-family: 'Quicksand', sans-serif; }
+        .font-serif-việt { font-family: 'Dancing Script', cursive; }
+        
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1599708153386-62e240656795?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-gray-800">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-red-700 font-serif-việt">Lễ Hội Việt</a>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-red-600 transition">Trang Chủ</a>
+                <a href="#about" class="hover:text-red-600 transition">Giới Thiệu</a>
+                <a href="#festivals" class="hover:text-red-600 transition">Lễ Hội Nổi Bật</a>
+                <a href="#contact" class="hover:text-red-600 transition">Liên Hệ</a>
+            </div>
+            <button class="bg-red-600 text-white px-5 py-2 rounded-full hover:bg-red-700 transition">Khám Phá Ngay</button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-bg h-screen flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-3xl">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">Hào Khí Ngàn Năm</h1>
+            <p class="text-lg md:text-xl mb-8 opacity-90">Gìn giữ và phát huy những giá trị văn hóa tinh thần vô giá của dân tộc Việt Nam qua những mùa lễ hội.</p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#festivals" class="bg-yellow-500 text-black font-bold px-8 py-3 rounded-lg hover:bg-yellow-400 transition">Tìm Hiểu Thêm</a>
+                <a href="#" class="border-2 border-white px-8 py-3 rounded-lg hover:bg-white hover:text-black transition">Video Tư Liệu</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 max-w-7xl mx-auto px-4">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="https://images.unsplash.com/photo-1555921015-5532091f6026?q=80&w=2070&auto=format&fit=crop" alt="Văn hóa Việt" class="rounded-2xl shadow-2xl">
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-red-800 mb-6">Nét Đẹp Văn Hóa Việt</h2>
+                <p class="text-gray-600 mb-4 leading-relaxed">
+                    Lễ hội ở Việt Nam là một sự kiện văn hóa được tổ chức thường kỳ, nhằm tưởng nhớ, tôn vinh các bậc tiền nhân có công với nước, với cộng đồng hoặc để cầu mong sự bình an, thịnh vượng.
+                </p>
+                <ul class="space-y-3">
+                    <li><i class="fas fa-check-circle text-green-600 mr-2"></i> Hơn 8,000 lễ hội lớn nhỏ hàng năm</li>
+                    <li><i class="fas fa-check-circle text-green-600 mr-2"></i> Kết nối cộng đồng và dòng tộc</li>
+                    <li><i class="fas fa-check-circle text-green-600 mr-2"></i> Lưu giữ nghệ thuật dân gian truyền thống</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="festivals" class="py-20 bg-stone-100">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16 text-red-900 font-serif-việt">Các Lễ Hội Tiêu Biểu</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+                    <div class="overflow-hidden h-48">
+                        <img src="https://vcdn1-dulich.vnecdn.net/2021/04/21/denhung-1619001372-2127-1619001402.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=I3qF8B6G2z7_rX7l_K5fWA" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Giỗ Tổ Hùng Vương</h3>
+                        <p class="text-gray-500 text-sm mb-4">Phú Thọ | 10/3 Âm lịch</p>
+                        <p class="text-gray-600 mb-4 text-sm">Ngày hội hướng về nguồn cội của mọi người con đất Việt, tưởng nhớ công ơn các vua Hùng.</p>
+                        <a href="#" class="text-red-600 font-bold hover:underline">Chi tiết →</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+                    <div class="overflow-hidden h-48">
+                        <img src="https://media.vneconomy.vn/images/upload/2023/02/05/chua-huong-5.jpg" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Lễ Hội Chùa Hương</h3>
+                        <p class="text-gray-500 text-sm mb-4">Hà Nội | Tháng 1 - Tháng 3 ÂL</p>
+                        <p class="text-gray-600 mb-4 text-sm">Hành trình về với vùng đất Phật, chiêm ngưỡng cảnh đẹp non nước hữu tình của động Hương Tích.</p>
+                        <a href="#" class="text-red-600 font-bold hover:underline">Chi tiết →</a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group">
+                    <div class="overflow-hidden h-48">
+                        <img src="https://static.vinwonders.com/production/le-hoi-lam-kinh-1.jpg" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Lễ Hội Lam Kinh</h3>
+                        <p class="text-gray-500 text-sm mb-4">Thanh Hóa | 22/8 Âm lịch</p>
+                        <p class="text-gray-600 mb-4 text-sm">Tôn vinh Anh hùng dân tộc Lê Lợi và cuộc khởi nghĩa Lam Kinh lừng lẫy lịch sử.</p>
+                        <a href="#" class="text-red-600 font-bold hover:underline">Chi tiết →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-serif-việt mb-6">Lễ Hội Việt Nam</h2>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="#" class="text-2xl hover:text-red-500"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-2xl hover:text-red-500"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="text-2xl hover:text-red-500"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="text-gray-400">© 2024 Bản quyền thuộc về Dự án Văn Hóa Việt. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
